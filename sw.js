@@ -1,6 +1,6 @@
 // CrystalPrompt service worker: caches the app shell so it opens offline.
 // Bump VERSION whenever index.html or other shell files change.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const SHELL = `crystalprompt-shell-${VERSION}`;
 const FONTS = 'crystalprompt-fonts';
 const SHELL_FILES = [
